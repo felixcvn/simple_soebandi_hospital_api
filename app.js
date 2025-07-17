@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 require('dotenv').config();
-const sequelize = require('./config/db').default;
+const sequelize = require('./config/db');
 
 const dokterRoutes = require('./routes/dokter');
 const pasienRoutes = require('./routes/pasien');
