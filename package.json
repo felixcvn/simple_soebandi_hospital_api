@@ -1,10 +1,10 @@
 {
-  "start": "node app.js",
   "name": "hospital-api",
   "version": "1.0.0",
   "description": "API Rumah Sakit dengan Express.js, Sequelize, MySQL",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "dev": "nodemon app.js"
   },
   "dependencies": {
